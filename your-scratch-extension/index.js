@@ -84,7 +84,7 @@ class Scratch3YourExtension {
                     return response.json();
                 }
                 else {
-                    return { title: 'Unknown' };
+                    return { title: 'not found Unknown' };
                 }
             })
             .then((bookinfo) => {
